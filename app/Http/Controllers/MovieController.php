@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Movie;
 use Illuminate\Http\Request;
 
-class BookController extends Controller
+class MovieController extends Controller
 {
     public function index()
     {
