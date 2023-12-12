@@ -7,9 +7,9 @@
         @foreach ($films as $film)
             <div class="col-3">
                 <h2 class="mb-3">{{ $film->title }}</h2>
-                <p>
+                <h4>
                     {{$film->original_title}}
-                </p>
+                </h4>
             </div>
         @endforeach
     </div>

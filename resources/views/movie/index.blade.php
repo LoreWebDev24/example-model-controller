@@ -8,7 +8,7 @@
     </div>
     <div class="container">
       <div class="row">
-        @forelse ($books as $book)
+        @forelse ($films as $film)
           <div class="col-3">
             <h2>{{ $film->title }}</h2>
             <p>{{ $film->original_title }}</p>
